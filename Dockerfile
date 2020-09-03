@@ -1,4 +1,4 @@
-FROM aaaguirrep/pentest
+FROM aaaguirrep/offensive-docker
 
 LABEL maintainer "Arsenio Aguirre" \
       email "a_aguirre117@hotmail.com"
