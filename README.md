@@ -1,6 +1,6 @@
-<!-- markdownlint-disable MD033 -->
+<!-- markdownlint-disable MD033 MD001 MD041-->
 
-# Offensive Docker custom configurations
+<h2>Offensive Docker custom configurations</h2>
 
 <p align="center">
   <a href="https://github.com/aaaguirrep/offensive-docker">
@@ -28,6 +28,19 @@
 
 Dockerfile with advanced configurations for Offensive Docker.
 
+### Table of contents
+
+- [Features](#features)
+- [Tools](#tools)
+- [:hammer_and_wrench: Usage](#hammer_and_wrench-usage)
+  - [Prerequisites](#prerequisites)
+  - [Github repository](#github-repository)
+  - [Considerations to run the container](#considerations-to-run-the-container)
+- [:white_check_mark: Environment tested](#white_check_mark-environment-tested)
+- [:coffee: Donations](#coffee-donations)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Features
 
 - Provide the api keys, tokens, etc, for different offensive tools.
@@ -42,7 +55,7 @@ Dockerfile with advanced configurations for Offensive Docker.
 - VPN alias for start VPN's profiles.
 - Persistent history file.
 
-## 🛠️ Usage
+## :hammer_and_wrench: Usage
 
 ### Prerequisites
 
@@ -74,7 +87,7 @@ There are differents use cases for use the image and you should know how to run 
 
         docker run --rm -it --privileged --name my-offensive-docker offensive-docker /bin/zsh
 
-## ✅ Environment tested
+## :white_check_mark: Environment tested
 
 The image was tested in the following environments:
 
@@ -83,6 +96,14 @@ The image was tested in the following environments:
 - Docker service for Linux instance on Google Cloud Platform: Docker version 19.03.6, build 369ce74a3c
 
 - Docker service for Linux droplet on Digital Ocean: Docker version 19.03.6, build 369ce74a3c
+
+## :coffee: Donations
+
+Thanks for your donations, are always appreciated.
+
+While I drink the coffee I check more tools to add in the docker image.
+
+[![Buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/aaaguirrep)
 
 ## Contributing
 
